@@ -22,5 +22,4 @@ if($result === false){
      //커넥션 오류값 표시
     echo mysqli_error($conn);
 }
-
 ?> 
