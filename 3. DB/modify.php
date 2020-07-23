@@ -57,7 +57,7 @@
 					</div>
 				    <div class="row">
 						<div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0 text-align-center">
-							<button class="btn btn-primary click-login">수정</button>
+							<button class="btn btn-primary click-login" onclick ="modifyHandler">수정</button>
 						    <button class="btn btn-primary click-login" onclick="script:window.close(); return false;">취소</button>
 					    </div>
 				    </div>

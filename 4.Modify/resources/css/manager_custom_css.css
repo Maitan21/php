@@ -1,0 +1,96 @@
+@charset "utf-8";
+.login-body {
+	/**background:url("../images/background/login_bg_001.png") no-repeat center top;**/
+	background:url("../images/background/login_bg_001.png") no-repeat center center fixed; 
+	background-position: left top; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/** formbox 관련 CSS [START] **/
+.g2-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1em + .70rem + 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.g2-input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 3px 10px;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+/** formbox 관련 CSS [ END ] **/
+
+/** button 관련 CSS [START] **/
+.g2-btn-warning { 
+	color:#FFFFFF;
+	background-color:#ffc107 !important;
+	border-color:#ffc107;
+}
+.g2-btn-warning:hover {
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#ffc107 !important;
+	border-color:#ffc107;
+}
+.g2-btn-info { 
+	color:#FFFFFF;
+	background-color:#17a2b8 !important;
+	border-color:#17a2b8;
+}
+.g2-btn-info:hover {
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#17a2b8 !important;
+	border-color:#17a2b8;
+}
+
+.g2-btn-danger { 
+	color:#FFFFFF;
+	background-color:#c82333 !important;
+	border-color:#c82333;
+}
+.g2-btn-danger:hover {
+	color:#FFFFFF;
+	font-weight:bold;
+	background-color:#c82333 !important;
+	border-color:#c82333;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 2px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+/** button 관련 CSS [ END ] **/
+/** 폰트관련 CSS [START] **/
+.font-text-white { color:#fff; }
+.font-text-warning { color:#E24956; }
+.font-text-point1 { color:#FF9000; }
+.font-text-normal { color:#7F7F7F; }
+/** 폰트관련 CSS [ END ] **/
